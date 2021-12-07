@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 2 JavaScript</title>
+    <script>
+        function alerta() {
+            alert('hizo clic!');
+        }
+            
+        function hacerclic() {
+            document.getElementsByTagName('p')[0].onclick= alerta;
+            document.getElementById('dos').onclick= alerta;
+        }
+
+        window.onload = hacerclic;
+    </script>
+</head>
+<body>
+    <h1>Ejemplo 2 JavaScript</h1>
+    <div id="principal">
+        <p id="uno">Clic 1</p>
+        <p id="dos">Clic 2</p>
+        <p>No se puede hacer clic</p>
+    </div>
+</body>
+</html>
