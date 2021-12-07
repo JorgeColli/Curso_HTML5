@@ -1,0 +1,177 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.7em;
+	margin: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: saddlebrown;
+}
+
+.titulo-1 {
+	font-size: 88px;
+	font-weight: 300;
+}
+
+.titulo-2 {
+	font-size: 56px;
+	font-weight: 300;
+}
+
+#principal {
+	background-image: url("../Img/showcase.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	color: #fff;
+	padding-top: 160px;
+}
+
+#principal h1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#principal p {
+	Width: 70%;
+	Padding-bottom: 40px;
+}
+
+#secc-descripcion {
+	padding-top: 120px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+#secc-descripcion h2 {
+	padding-bottom: 20px;
+}
+
+#fil-descripcion {
+	padding-top: 20px;
+}
+
+#col-descripcion {
+	float: left;
+	width: 33%;
+	padding: 25px;
+}
+
+#opiniones {
+	background-image: url("../Img/background.jpg");
+	background-repeat: no-repit;
+	background-size: cover;
+	background-position: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+	font-weight: 300;
+	color: #fff;
+}
+
+#opiniones h4 {
+	padding-bottom: 40px;
+}
+
+#opiniones img {
+	padding-bottom: 20px;
+	border-radius:50%;
+}
+
+#opiniones p {
+	margin: auto;
+	width: 70%;
+}
+
+#opiniones .cliente {
+	padding-top: 20px;
+}
+
+#productos {
+	background-color: #f9f9f9;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+#fil-productos {
+	padding-top: 20px;
+}
+
+.col-productos {
+	float: left;
+	width: 33%;
+	padding: 25px;
+}
+
+#col-productos img {
+	width: 100%;
+}
+
+#sobre-market {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.lugar-imagen {
+	float: left;
+	width: 50%;
+	padding: 40px;
+}
+
+#lugar-imagen img {
+	width: 100%;
+}
+
+.texto-sobre-market {
+	float: right;
+	width: 50%;
+	padding: 150px 50px;
+}
+
+#texto-sobre-market p {
+	Padding-top: 20px;
+}
+
+#footer {
+	background-color: #F9F9F9;
+	text-align: center;
+	padding: 20px;
+}
+
